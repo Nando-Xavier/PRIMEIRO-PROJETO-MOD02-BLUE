@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgb(18, 12, 12),
+    rgb(75, 73, 73),
+    rgb(7, 6, 6)
+  );
+}
+header#logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(224, 57, 11),
+    rgb(224, 210, 11),
+    rgb(224, 57, 11)
+  );
+}
+header#logo img {
+  width: 50%;
+}
+section#principal {
+  flex-wrap: wrap;
+  margin: 1rem 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+section#principal article {
+  width: 500px;
+}
+section#principal h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+section#principal h2#situaçao {
+
+  font-size: 3rem;
+  text-align: center;
+}
+
+section#principal img {
+  width: 35vh;
+  height: 39vh;
+  justify-content: center;
+}
+section#botão {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+section#botão button {
+  color: #fff;
+  background-color: goldenrod;
+  border: none;
+  padding: 0 70px ;
+  text-transform: uppercase;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 80px;
+  transition: box-shadow 0.15s ease-in-out;
+}
+section#botão button:hover {
+  transform: scale(1.1);
+  background-color: rgb(224, 57, 11);
+  box-shadow: inset 0 0 1em gold, 0 0 1em red;
+}
